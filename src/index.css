@@ -11,3 +11,179 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* listing table */
+.bb {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.b--black-20 {
+  border-color: rgba(0, 0, 0, .2);
+}
+
+.fw6 {
+  font-weight: 600;
+}
+
+.lh-copy {
+  line-height: 1.5;
+}
+
+.mw8 {
+  max-width: 64rem;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.pa4 {
+  padding: 2rem;
+}
+
+.pr3 {
+  padding-right: 1rem;
+}
+
+.pb3 {
+  padding-bottom: 1rem;
+}
+
+.pv3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.tl {
+  text-align: center;
+}
+
+.f6 {
+  font-size: .875rem;
+}
+
+.center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* title */
+.fw2 {
+  font-weight: 200;
+}
+
+.lh-copy {
+  line-height: 1.5;
+}
+
+.black-90 {
+  color: rgba(0, 0, 0, .9);
+}
+
+.black-50 {
+  color: rgba(0, 0, 0, .5);
+}
+
+.ph4 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.mt0 {
+  margin-top: 0;
+}
+
+.mv3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tc {
+  text-align: center;
+}
+
+.f3 {
+  font-size: 1.5rem;
+}
+
+.f5 {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .f2-m {
+      font-size: 2.25rem;
+  }
+
+  .f4-m {
+      font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .f1-l {
+      font-size: 3rem;
+  }
+
+  .f3-l {
+      font-size: 1.25rem;
+  }
+}
+
+/* cursor highlight */
+.dib {
+  display: inline-block;
+}
+
+.fw7 {
+  font-weight: 400;
+}
+
+.lh-copy {
+  line-height: 1.5;
+}
+
+.black {
+  color: #000;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.hover-bg-light-blue:hover {
+  background-color: #96ccff;
+}
+
+.hover-bg-light-blue:focus {
+  background-color: #96ccff;
+}
+
+.pa2 {
+  padding: .05rem;
+}
+
+.pa4 {
+  padding: .05rem;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.f4 {
+  font-size: .875rem;
+}
+
+.bg-animate, .bg-animate:hover, .bg-animate:focus {
+  transition: background-color .15s ease-in-out;
+}
